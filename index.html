@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" alt="Icone de um Díario">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-contatos">
+            <input type="text" required id="nome-contato" placeholder="Nome do Contato">
+            <input type="tel" required id="numero-contato" placeholder="Numero do Contato">
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing = "0">
+            <thead>
+                <tr>
+                    <th>Nome do Contato</th>
+                    <th>Numero do Contato</th>
+                    <th>Ligar?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>----</td>
+                    <td>----</td>
+                    <td><a href="#">----</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
